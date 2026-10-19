@@ -13,6 +13,150 @@ export const mockCategories: Category[] = [
 
 export const mockProjects: Project[] = [
   {
+    id: "proj-wema-luna",
+    title: "Luna.online — Wema Bank Hackathon Winner",
+    slug: "luna-online-wema-hackathon",
+    category_id: "cat-6",
+    short_description: "1st Place Winner at the Wema Bank Hackathon (Benin City Edition). Led a 7-person engineering team building Luna.online, an intelligent banking intelligence and cash flow prediction platform.",
+    full_description: "Luna.online is an award-winning banking intelligence platform built during the prestigious Wema Bank Hackathon (Benin City Edition), where our 7-person engineering team won 1st Place. The platform provides automated cash flow analysis, real-time transaction reconciliation, AI-assisted financial recommendations, and predictive treasury tracking designed for modern enterprise and SME banking customers.",
+    tech_stack: ["TypeScript", "React", "Next.js", "Node.js", "NestJS", "PostgreSQL", "Fintech APIs", "AI Automation"],
+    featured: true,
+    private_github: true,
+    cover_image: "https://images.unsplash.com/photo-1559526324-4b87b5e36e44?q=80&w=1200&auto=format&fit=crop",
+    gallery_images: [
+      "https://images.unsplash.com/photo-1559526324-4b87b5e36e44?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=1200&auto=format&fit=crop"
+    ],
+    demo_video: null,
+    external_url: "https://wema-cash-flow.vercel.app",
+    github_url: "https://github.com/Omatsulijoshua/Wema-Cash-Flow",
+    employer_note: "Highlights high-intensity hackathon leadership, building a production-ready fintech concept and winning 1st Place.",
+    project_highlights: [
+      "Won 1st Place / Champions at the Wema Bank Hackathon (Benin City Edition).",
+      "Led a multidisciplinary 7-person engineering team under strict hackathon deadlines.",
+      "Engineered real-time cash flow intelligence, ledger balance tracking, and AI-driven advisory workflows.",
+      "Presented technical architecture and business value to bank executives and industry judges."
+    ],
+    project_resources: [
+      {
+        id: "res-luna-repo",
+        label: "GitHub Repository",
+        type: "repository",
+        url: "https://github.com/Omatsulijoshua/Wema-Cash-Flow"
+      }
+    ],
+    created_at: "2026-09-17T12:00:00.000Z",
+    categories: mockCategories[5],
+  },
+  {
+    id: "proj-mybandup",
+    title: "MyBandUp IELTS",
+    slug: "mybandup-ielts",
+    category_id: "cat-2",
+    short_description: "AI-assisted IELTS preparation product with writing feedback, speaking analysis, timed mock tests, and cross-platform access across web and Android.",
+    full_description: "MyBandUp IELTS is an all-in-one AI-assisted examination preparation platform serving candidate learners. Features include instant essay scoring with detailed lexical and grammatical critique, automated speech evaluation, full-length timed mock tests with band-score prediction, and synchronized progress analytics across the responsive web app, Android app, and iOS mobile web experience.",
+    tech_stack: ["Flutter", "React", "Next.js", "Node.js", "OpenAI & Gemini APIs", "PostgreSQL", "Tailwind CSS"],
+    featured: true,
+    private_github: true,
+    cover_image: "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?q=80&w=1200&auto=format&fit=crop",
+    gallery_images: [
+      "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?q=80&w=1200&auto=format&fit=crop"
+    ],
+    demo_video: null,
+    external_url: "https://mybandupielts.com",
+    github_url: "https://github.com/Omatsulijoshua/MyBandUp-IELTS",
+    employer_note: "Demonstrates complete customer-facing educational SaaS with AI grading pipelines and multi-client account synchronization.",
+    project_highlights: [
+      "AI-assisted writing feedback and automated speaking analysis with real-time scoring.",
+      "Timed full-length mock tests with granular section-by-section analytics.",
+      "Unified accounts across web platform, Android APK, and mobile web app."
+    ],
+    project_resources: [
+      {
+        id: "res-bandup-web",
+        label: "Live Website",
+        type: "demo",
+        url: "https://mybandupielts.com"
+      }
+    ],
+    created_at: "2026-10-14T10:00:00.000Z",
+    categories: mockCategories[1],
+  },
+  {
+    id: "proj-nigerian-law",
+    title: "What Does Nigerian Law Say?",
+    slug: "what-does-nigerian-law-say",
+    category_id: "cat-2",
+    short_description: "Public Nigerian legal-information product where users ask questions and explore plain-language explanations, rights, practical next steps, and linked source material.",
+    full_description: "What Does Nigerian Law Say is a public civic legal technology application designed around traceable statutory sources. Users query any legal scenario to receive plain-language summaries of constitutional rights, criminal codes, land acts, and administrative procedures with explicit source citations and guidance on professional legal consultation.",
+    tech_stack: ["Next.js", "React", "TypeScript", "Tailwind CSS", "LLM APIs", "PostgreSQL", "Vector Search"],
+    featured: true,
+    private_github: false,
+    cover_image: "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?q=80&w=1200&auto=format&fit=crop",
+    gallery_images: [
+      "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?q=80&w=1200&auto=format&fit=crop"
+    ],
+    demo_video: null,
+    external_url: "https://what-does-nigeria-law-says.thispage.xyz",
+    github_url: "https://github.com/Omatsulijoshua/what-does-the-law-says",
+    employer_note: "Showcases AI hallucination mitigation, verified citation workflows, and public-utility civic design.",
+    project_highlights: [
+      "Engineered statutory grounding to deliver verifiable legal citations.",
+      "Built clean, high-accessibility UI with fast search and instant answer retrieval.",
+      "Integrated legal disclaimers and structured source material linking."
+    ],
+    project_resources: [
+      {
+        id: "res-law-site",
+        label: "Live Application",
+        type: "demo",
+        url: "https://what-does-nigeria-law-says.thispage.xyz"
+      }
+    ],
+    created_at: "2026-10-18T14:00:00.000Z",
+    categories: mockCategories[1],
+  },
+  {
+    id: "proj-portfolio-platform",
+    title: "Omatsuli Joshua Portfolio & Admin Platform",
+    slug: "omatsuli-joshua-portfolio-platform",
+    category_id: "cat-5",
+    short_description: "High-performance portfolio website with standalone admin control panel deployed across dedicated subdomains with real-time PostgreSQL telemetry.",
+    full_description: "A dual-architecture software portfolio showcasing production systems, CV automation, dynamic project administration, visitor telemetry, and contact message notifications. Built with Next.js 16 (App Router), Tailwind CSS v4, Framer Motion, and PostgreSQL via Neon DB.",
+    tech_stack: ["Next.js 16", "React 19", "TypeScript", "Tailwind CSS v4", "PostgreSQL", "Framer Motion", "PDFKit", "Vercel"],
+    featured: true,
+    private_github: false,
+    cover_image: "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?q=80&w=1200&auto=format&fit=crop",
+    gallery_images: [
+      "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?q=80&w=1200&auto=format&fit=crop"
+    ],
+    demo_video: null,
+    external_url: "https://omatsuli-joshua-poitflio.thispage.xyz",
+    github_url: "https://github.com/Omatsulijoshua/portfolio-website",
+    employer_note: "Demonstrates modern frontend craftsmanship, clean microservices splitting, and autonomous deployment automation.",
+    project_highlights: [
+      "Split public showcase and administrative management into isolated deployments.",
+      "Custom domain deployment with automated SSL wildcard resolution.",
+      "Real-time PostgreSQL telemetry, inbox management, and dynamic resume PDF generation."
+    ],
+    project_resources: [
+      {
+        id: "res-port-site",
+        label: "Live Portfolio",
+        type: "demo",
+        url: "https://omatsuli-joshua-poitflio.thispage.xyz"
+      },
+      {
+        id: "res-admin-site",
+        label: "Admin Panel",
+        type: "demo",
+        url: "https://admin.omatsuli-joshua-poitflio.thispage.xyz"
+      }
+    ],
+    created_at: "2026-10-19T22:00:00.000Z",
+    categories: mockCategories[4],
+  },
+  {
     id: "proj-1",
     title: "Aether Swap & Wallet",
     slug: "aether-swap-wallet",
