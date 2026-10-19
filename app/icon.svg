@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100%" height="100%">
+  <defs>
+    <linearGradient id="neonGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2563eb" />
+      <stop offset="48%" stop-color="#0f9f8f" />
+      <stop offset="100%" stop-color="#f97316" />
+    </linearGradient>
+  </defs>
+  <!-- Rounded background matching bg-gradient-neon -->
+  <rect x="0" y="0" width="100" height="100" rx="24" fill="url(#neonGrad)" />
+  
+  <!-- Terminal Icon (lucide Terminal style) -->
+  <path d="M28 32 L48 52 L28 72" fill="none" stroke="#ffffff" stroke-width="9" stroke-linecap="round" stroke-linejoin="round" />
+  <line x1="56" y1="72" x2="76" y2="72" stroke="#ffffff" stroke-width="9" stroke-linecap="round" />
+</svg>
